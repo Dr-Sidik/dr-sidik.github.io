@@ -1,0 +1,143 @@
+h1 {
+    font-size: 1.2rem;
+    color: #024873;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.2rem;
+    color: #024873;
+    text-align: center;
+}
+
+.profile_picture {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 100px;
+}
+
+.center{
+  text-align: center;
+}
+
+.bg{
+  background-color: aliceblue;
+}
+
+.content{
+  background-color:white;
+  padding: 20px;
+  bottom: 10px;
+}
+
+.links_item{
+    display: block;
+    max-width: 300px;
+    margin: 0 auto 15px;
+    margin-bottom: 5px;
+    padding: 10px 10px;
+    font-size: 0.95rem;
+    line-height: 1;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    color: black;
+    font-family: Future, sans-serif;
+}
+
+.links_item--orange{
+    border-bottom: 3px solid #ffa093;
+    box-shadow: inset 0 -4px 0 #ffa093; 
+    border-radius: 25px;
+    border: 2px solid #ffa093;
+    background-color: #ffa093; 
+}
+
+.links_item--blue{
+    border-bottom: 3px solid #b6e1e0;
+    box-shadow: inset 0 -4px 0 #b6e1e0; 
+    border-radius: 25px;
+    border: 2px solid #b6e1e0;
+    background-color: #b6e1e0; 
+}
+
+.links_item--green{
+    border-bottom: 3px solid #e0ffcd;
+    box-shadow: inset 0 -4px 0 #e0ffcd; 
+    border-radius: 25px;
+    border: 2px solid #e0ffcd;
+    background-color: #e0ffcd; 
+}
+
+ /* Style all font awesome icons */
+ .fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    border-radius: 50%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+  .container{
+    margin-top: 30px;
+    display: grid;
+    grid-template-areas: "left header right"
+                         "left main right"
+                         "left footer right";
+    grid-template-columns: 1fr 10fr 1fr;
+  }
+ 
+  .header{
+    background: beige;
+    grid-area: header;
+    padding: 20px;
+  }
+
+  .main{
+    background: floralwhite;
+    grid-area: main;
+    padding: 20px;
+  }
+ 
+  .footer{
+    background: beige;
+    grid-area: footer;
+    padding: 20px;
+  }
